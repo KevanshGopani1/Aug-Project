@@ -95,6 +95,10 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+.right::-webkit-scrollbar {
+  display: none;
+}
+
 .rtop {
   display: flex;
   justify-content: space-between;
